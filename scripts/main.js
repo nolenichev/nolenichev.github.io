@@ -44,7 +44,7 @@ $('#eng-circle').circleProgress({
   size: 70,
   startAngle: 0,
   fill: {
-    gradient: ["red", "orange"]
+    gradient: ["#7f53ac", "#647dee"]
   }
 });
 
@@ -53,7 +53,7 @@ $('#ru-circle').circleProgress({
   size: 70,
   startAngle: 0,
   fill: {
-    gradient: ["red", "orange"]
+    gradient: ["#7f53ac", "#647dee"]
   }
 });
 
@@ -62,6 +62,6 @@ $('#cz-circle').circleProgress({
   size: 70,
   startAngle: 0,
   fill: {
-    gradient: ["red", "orange"]
+    gradient: ["#7f53ac", "#647dee"]
   }
 });

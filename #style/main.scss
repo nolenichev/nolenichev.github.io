@@ -41,22 +41,21 @@
     color: #fff;
     padding: 10px 10px;
     border-radius: 15px;
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    background-color: #7f53ac;
+    background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
     box-shadow: 7px 7px 14px #000, -3px -3px 10px #b4b4b46e;
     display: block;
-    width: 140px;
+    width: 130px;
 
     &:hover {
         color: #fff;
-        //   box-shadow: -6px -6px 10px #ffffffcc, 6px 6px 10px #00000033;
         text-decoration: none;
-        margin-bottom: -5px;
     }
+
     &:active {
         opacity: 1;
         background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #009ffd 0%, #2a2a72 74%);
+        background-image: linear-gradient(315deg, #647dee 0%, #7f53ac 74%);
         box-shadow: 7px 7px 14px #000, -3px -3px 10px #ffffff6e;
     }
 }
