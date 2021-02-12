@@ -38,30 +38,33 @@ $('a.smooth-scroll')
     }
   }
 });
-
-$('#eng-circle').circleProgress({
-  value: .65,
-  size: 70,
-  startAngle: 0,
-  fill: {
-    gradient: ["#7f53ac", "#647dee"]
-  }
-});
-
-$('#ru-circle').circleProgress({
-  value: 1,
-  size: 70,
-  startAngle: 0,
-  fill: {
-    gradient: ["#7f53ac", "#647dee"]
-  }
-});
-
-$('#cz-circle').circleProgress({
-  value: .65,
-  size: 70,
-  startAngle: 0,
-  fill: {
-    gradient: ["#7f53ac", "#647dee"]
-  }
-});
+(function () {
+  var size = 65
+  
+  $('#eng-circle').circleProgress({
+    value: .65,
+    size: size,
+    startAngle: 0,
+    fill: {
+      gradient: ["#7f53ac", "#647dee"]
+    }
+  });
+  
+  $('#ru-circle').circleProgress({
+    value: 1,
+    size: size,
+    startAngle: 0,
+    fill: {
+      gradient: ["#7f53ac", "#647dee"]
+    }
+  });
+  
+  $('#cz-circle').circleProgress({
+    value: .65,
+    size: size,
+    startAngle: 0,
+    fill: {
+      gradient: ["#7f53ac", "#647dee"]
+    }
+  });
+})();
