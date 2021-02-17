@@ -4571,9 +4571,7 @@ img {
     padding: 22px;
     box-shadow: 0 3px 10px 5px #0000001c;
 }
-.card .card-body {
-    min-height: 190px;
-}
+
 .card[data-background-color="orange"] {
     background-color: $mainColor;
 }
@@ -6993,10 +6991,9 @@ a.credit {
 }
 
 .portfolio-card {
-    border-radius: 14px;
+    border-radius: 16px;
     overflow: hidden;
-    height: 320px;
-    background-color: #00f;
+    height: 300px;
     box-shadow: 0 3px 10px 5px #0000001c;
     position: relative;
 
@@ -7012,14 +7009,13 @@ a.credit {
         left: 0;
         width: 100%;
         padding: 20px;
-        background: #000000be;
+        background: #000000cb;
 
-        a {
-            color: #fff;
+        a, div {
+            color: #fff !important;
             text-decoration: none;
             font-size: 20px;
             font-weight: 600;
-            margin-bottom: 10px;
         }
 
         p {
@@ -7027,5 +7023,32 @@ a.credit {
             margin: 0;
             font-size: 16px;
         }
+    }
+}
+
+.exp-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 0 !important;
+    padding-right: 0;
+
+    img {
+        max-width: 100%;
+        max-height: 120px;
+        object-fit: contain;
+        padding-right: 0 !important;
+    }
+}
+
+.exp-card {
+    .card-body {
+        padding: 15px 20px;
+    }
+    .category {
+        margin: 5px 0 10px 0;
+    }
+    .h5, p {
+        margin-bottom: 0;
     }
 }
