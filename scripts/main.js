@@ -42,7 +42,7 @@ $('a.smooth-scroll')
   var size = 65
   
   $('#eng-circle').circleProgress({
-    value: .65,
+    value: .7,
     size: size,
     startAngle: 0,
     fill: {
@@ -60,7 +60,7 @@ $('a.smooth-scroll')
   });
   
   $('#cz-circle').circleProgress({
-    value: .65,
+    value: .7,
     size: size,
     startAngle: 0,
     fill: {
